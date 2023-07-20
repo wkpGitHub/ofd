@@ -1,0 +1,17 @@
+.kp-ofd{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.kp-ofd table{
+  border-collapse: collapse;
+}
+.kp-ofd td{
+  border: 1px solid #ccc;
+  padding: 4px;
+  min-width: 80px;
+  max-width: 300px;
+}
+.kp-ofd td[data-v] {
+  min-width: 100px;
+}
